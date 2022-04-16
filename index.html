@@ -139,6 +139,11 @@
       <div>
         <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
           <div class="col">
+            <div class="d-grid gap-2">
+              <button class="btn btn-info" type="button">
+                <i class="fa-solid fa-plane"></i>
+              </button>
+            </div>
             <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
@@ -150,6 +155,9 @@
             </p>
           </div>
           <div class="col">
+            <button class="d-block d-sm-none btn btn-info w-100" type="button">
+              <i class="fa-solid fa-mountain"></i>
+            </button>
             <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
@@ -159,8 +167,14 @@
               nulla pariatur. Excepteur sint occaecat cupidatat non proident,
               sunt in culpa qui officia deserunt mollit anim id est laborum.
             </p>
+            <button class="d-none d-sm-block btn btn-info w-100" type="button">
+              <i class="fa-solid fa-mountain"></i>
+            </button>
           </div>
           <div class="col">
+            <button class="btn btn-info w-100" type="button">
+              <i class="fa-solid fa-route"></i>
+            </button>
             <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
@@ -183,8 +197,8 @@
       </div>
       <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 g-4">
         <div class="col">
-          <div class="card h-100">
-            <img src="./assets/img/card1.jpg" class="card-img-top" alt="..." />
+          <div class="card h-100 bg-info">
+            <img src="./assets/img/card1.jpg" class="card-img-top h-50" alt="destino1" />
             <div class="card-body">
               <p class="card-text">
                 Some quick example text to build on the card title and make up
@@ -194,8 +208,8 @@
           </div>
         </div>
         <div class="col">
-          <div class="card h-100">
-            <img src="./assets/img/card2.jpg" class="card-img-top" alt="..." />
+          <div class="card h-100 bg-info">
+            <img src="./assets/img/card2.jpg" class="card-img-top h-50" alt="destino2" />
             <div class="card-body">
               <p class="card-text">
                 Some quick example text to build on the card title and make up
@@ -205,8 +219,8 @@
           </div>
         </div>
         <div class="col">
-          <div class="card h-100">
-            <img src="./assets/img/card3.jpg" class="card-img-top" alt="..." />
+          <div class="card h-100 bg-info">
+            <img src="./assets/img/card3.jpg" class="card-img-top h-50" alt="destino3" />
             <div class="card-body">
               <p class="card-text">
                 Some quick example text to build on the card title and make up
@@ -216,8 +230,8 @@
           </div>
         </div>
         <div class="col">
-          <div class="card h-100">
-            <img src="./assets/img/card4.jpg" class="card-img-top" alt="..." />
+          <div class="card h-100 bg-info">
+            <img src="./assets/img/card4.jpg" class="card-img-top h-50" alt="destino4" />
             <div class="card-body">
               <p class="card-text">
                 Some quick example text to build on the card title and make up
@@ -256,17 +270,29 @@
 
     <!-- footer -->
     <footer class="container align-items-center d-flex py-3 my-4">
-        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 col-xxl-6 d-flex align-items-center">
-          <span>Viajes Chile</span>
-        </div>
-    
-        <ul class="col-xs-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 col-xxl-6 list-unstyled d-flex">
-          <li class="ms-3"><a href="#"><i class="fa-brands fa-github-square"></i></a></li>
-          <li class="ms-3"><a href="#"><i class="fa-brands fa-linkedin"></i></a></li>
-          <li class="ms-3"><a href="#"><i class="fa-brands fa-twitter-square"></i></a></li>
-          <li class="ms-3"><a href="#"><i class="fa-brands fa-facebook-square"></i></a></li>
-        </ul>
-      </footer>
+      <div
+        class="col-xs-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 col-xxl-6 d-flex align-items-center"
+      >
+        <span>Viajes Chile</span>
+      </div>
+
+      <ul
+        class="col-xs-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 col-xxl-6 list-unstyled d-flex"
+      >
+        <li class="ms-3">
+          <a href="#"><i class="fa-brands fa-github-square"></i></a>
+        </li>
+        <li class="ms-3">
+          <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+        </li>
+        <li class="ms-3">
+          <a href="#"><i class="fa-brands fa-twitter-square"></i></a>
+        </li>
+        <li class="ms-3">
+          <a href="#"><i class="fa-brands fa-facebook-square"></i></a>
+        </li>
+      </ul>
+    </footer>
 
     <!-- jQuery CDN -->
     <script
