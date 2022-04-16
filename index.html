@@ -33,7 +33,240 @@
     <link rel="stylesheet" href="./assets/css/style.css" />
   </head>
   <body>
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container">
+        <a class="navbar-brand" href="#">
+          <img
+            src="./assets/img/viajes.svg"
+            alt="logo viajes chile"
+            width="30"
+            height="24"
+            class="d-inline-block align-text-top"
+          />
+          Viajes Chile
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavDropdown"
+          aria-controls="navbarNavDropdown"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <!-- ms-auto deja menú a la izquierda -->
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Quienes somos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Destacados</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contacto</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
 
+    <!-- header -->
+    <header id="hero-section">
+      <div class="container-fluid">
+        <div
+          id="carouselExampleControls"
+          class="carousel slide"
+          data-bs-ride="carousel"
+        >
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img
+                src="./assets/img/carousel1.jpg"
+                class="d-block w-100"
+                alt="viaje1"
+              />
+            </div>
+            <div class="carousel-item">
+              <img
+                src="./assets/img/carousel2.jpg"
+                class="d-block w-100"
+                alt="viaje2"
+              />
+            </div>
+            <div class="carousel-item">
+              <img
+                src="./assets/img/carousel3.jpg"
+                class="d-block w-100"
+                alt="viaje3"
+              />
+            </div>
+          </div>
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#carouselExampleControls"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#carouselExampleControls"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+    </header>
+
+    <!-- quienes somos -->
+    <section id="quienes-somos" class="container">
+      <div class="text-center">
+        <h2>¿Quiénes somos?</h2>
+        <hr />
+      </div>
+      <div>
+        <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+          <div class="col">
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam, quis nostrud exercitation ullamco laboris
+              nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+              reprehenderit in voluptate velit esse cillum dolore eu fugiat
+              nulla pariatur. Excepteur sint occaecat cupidatat non proident,
+              sunt in culpa qui officia deserunt mollit anim id est laborum.
+            </p>
+          </div>
+          <div class="col">
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam, quis nostrud exercitation ullamco laboris
+              nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+              reprehenderit in voluptate velit esse cillum dolore eu fugiat
+              nulla pariatur. Excepteur sint occaecat cupidatat non proident,
+              sunt in culpa qui officia deserunt mollit anim id est laborum.
+            </p>
+          </div>
+          <div class="col">
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam, quis nostrud exercitation ullamco laboris
+              nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+              reprehenderit in voluptate velit esse cillum dolore eu fugiat
+              nulla pariatur. Excepteur sint occaecat cupidatat non proident,
+              sunt in culpa qui officia deserunt mollit anim id est laborum.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- destacados -->
+    <section id="destacados" class="container">
+      <div class="text-center">
+        <h2>Destacados</h2>
+        <hr />
+      </div>
+      <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 g-4">
+        <div class="col">
+          <div class="card h-100">
+            <img src="./assets/img/card1.jpg" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="./assets/img/card2.jpg" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="./assets/img/card3.jpg" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="./assets/img/card4.jpg" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- contacto -->
+    <section id="contacto" class="container">
+      <div class="text-center">
+        <h2>Destacados</h2>
+        <hr />
+      </div>
+      <div id="formulario-contacto">
+        <form>
+          <label for="nombre" class="form-label">Nombre</label>
+          <div class="input-group mb-3">
+            <input type="text" class="form-control" id="nombre" />
+          </div>
+          <label for="asunto" class="form-label">Asunto</label>
+          <div class="input-group mb-3">
+            <input type="text" class="form-control" id="asunto" />
+          </div>
+          <label for="mensaje" class="form-label">Mensaje</label>
+          <div class="input-group mb-3">
+            <textarea class="form-control" id="mensaje"></textarea>
+          </div>
+          <button type="button" class="btn btn-info">Enviar</button>
+        </form>
+      </div>
+    </section>
+
+    <!-- footer -->
+    <footer class="container align-items-center d-flex py-3 my-4">
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 col-xxl-6 d-flex align-items-center">
+          <span>Viajes Chile</span>
+        </div>
+    
+        <ul class="col-xs-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 col-xxl-6 list-unstyled d-flex">
+          <li class="ms-3"><a href="#"><i class="fa-brands fa-github-square"></i></a></li>
+          <li class="ms-3"><a href="#"><i class="fa-brands fa-linkedin"></i></a></li>
+          <li class="ms-3"><a href="#"><i class="fa-brands fa-twitter-square"></i></a></li>
+          <li class="ms-3"><a href="#"><i class="fa-brands fa-facebook-square"></i></a></li>
+        </ul>
+      </footer>
 
     <!-- jQuery CDN -->
     <script
