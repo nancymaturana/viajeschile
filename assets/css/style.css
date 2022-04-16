@@ -1,14 +1,18 @@
-body{
-    font-family: 'Raleway', sans-serif;
-    color: #FFFFFF !important;
-    background-color: #000000;
+body {
+  font-family: "Raleway", sans-serif;
+  color: #ffffff !important;
+  background-color: #000000;
 }
 
-.nav-color{
-    background-color: transparent !important;
+.nav-color {
+  background-color: transparent !important;
 }
 
-footer a{
-    color: #FFFFFF;
-    text-decoration: none;
+#footer a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.background-selected{
+  background-color: #538094 !important;
 }
