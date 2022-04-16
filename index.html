@@ -23,18 +23,16 @@
       referrerpolicy="no-referrer"
     />
 
-    <!-- google fonts Open Sans-->
-    <link
-      href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap"
-      rel="stylesheet"
-    />
+    <!-- google fonts Raleway-->
+    <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
 
     <!-- estilos propios -->
     <link rel="stylesheet" href="./assets/css/style.css" />
   </head>
   <body>
     <!-- navbar -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <!-- clase fixed-top para que la nav quede sobre la imagen del carrousel -->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top nav-color">
       <div class="container">
         <a class="navbar-brand" href="#">
           <img
@@ -61,16 +59,16 @@
           <!-- ms-auto deja menú a la izquierda -->
           <ul class="navbar-nav ms-auto">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+              <a class="nav-link active" aria-current="page" href="#inicio">Inicio</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Quienes somos</a>
+              <a class="nav-link" href="#quienes-somos">Quienes somos</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Destacados</a>
+              <a class="nav-link" href="#destacados">Destacados</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Contacto</a>
+              <a class="nav-link" href="#contacto">Contacto</a>
             </li>
           </ul>
         </div>
@@ -78,8 +76,8 @@
     </nav>
 
     <!-- header -->
-    <header id="hero-section">
-      <div class="container-fluid">
+    <header id="inicio">
+      <div id="slider-inicio">
         <div
           id="carouselExampleControls"
           class="carousel slide"
@@ -131,19 +129,17 @@
     </header>
 
     <!-- quienes somos -->
-    <section id="quienes-somos" class="container">
-      <div class="text-center">
+    <section id="quienes-somos" class="container p-5">
+      <div class="text-center text-uppercase">
         <h2>¿Quiénes somos?</h2>
         <hr />
       </div>
       <div>
         <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
           <div class="col">
-            <div class="d-grid gap-2">
-              <button class="btn btn-info" type="button">
+            <button class="btn btn-info text-white w-100" type="button">
                 <i class="fa-solid fa-plane"></i>
               </button>
-            </div>
             <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
@@ -155,7 +151,7 @@
             </p>
           </div>
           <div class="col">
-            <button class="d-block d-sm-none btn btn-info w-100" type="button">
+            <button class="d-block d-sm-none btn btn-info text-white w-100" type="button">
               <i class="fa-solid fa-mountain"></i>
             </button>
             <p>
@@ -167,12 +163,12 @@
               nulla pariatur. Excepteur sint occaecat cupidatat non proident,
               sunt in culpa qui officia deserunt mollit anim id est laborum.
             </p>
-            <button class="d-none d-sm-block btn btn-info w-100" type="button">
+            <button class="d-none d-sm-block btn btn-info text-white w-100" type="button">
               <i class="fa-solid fa-mountain"></i>
             </button>
           </div>
           <div class="col">
-            <button class="btn btn-info w-100" type="button">
+            <button class="btn btn-info text-white w-100" type="button">
               <i class="fa-solid fa-route"></i>
             </button>
             <p>
@@ -190,8 +186,8 @@
     </section>
 
     <!-- destacados -->
-    <section id="destacados" class="container">
-      <div class="text-center">
+    <section id="destacados" class="container p-5">
+      <div class="text-center text-uppercase">
         <h2>Destacados</h2>
         <hr />
       </div>
@@ -200,9 +196,10 @@
           <div class="card h-100 bg-info">
             <img src="./assets/img/card1.jpg" class="card-img-top h-50" alt="destino1" />
             <div class="card-body">
+            <h5 class="card-title">Lorem ipsum dolor sit amet</h5>
               <p class="card-text">
-                Some quick example text to build on the card title and make up
-                the bulk of the card's content.
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
               </p>
             </div>
           </div>
@@ -211,9 +208,10 @@
           <div class="card h-100 bg-info">
             <img src="./assets/img/card2.jpg" class="card-img-top h-50" alt="destino2" />
             <div class="card-body">
+                <h5 class="card-title">Lorem ipsum dolor sit amet</h5>
               <p class="card-text">
-                Some quick example text to build on the card title and make up
-                the bulk of the card's content.
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
               </p>
             </div>
           </div>
@@ -222,9 +220,10 @@
           <div class="card h-100 bg-info">
             <img src="./assets/img/card3.jpg" class="card-img-top h-50" alt="destino3" />
             <div class="card-body">
+                <h5 class="card-title">Lorem ipsum dolor sit amet</h5>
               <p class="card-text">
-                Some quick example text to build on the card title and make up
-                the bulk of the card's content.
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
               </p>
             </div>
           </div>
@@ -233,9 +232,10 @@
           <div class="card h-100 bg-info">
             <img src="./assets/img/card4.jpg" class="card-img-top h-50" alt="destino4" />
             <div class="card-body">
+                <h5 class="card-title">Lorem ipsum dolor sit amet</h5>
               <p class="card-text">
-                Some quick example text to build on the card title and make up
-                the bulk of the card's content.
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
               </p>
             </div>
           </div>
@@ -244,9 +244,9 @@
     </section>
 
     <!-- contacto -->
-    <section id="contacto" class="container">
-      <div class="text-center">
-        <h2>Destacados</h2>
+    <section id="contacto" class="container p-5">
+      <div class="text-center text-uppercase">
+        <h2>Contacto</h2>
         <hr />
       </div>
       <div id="formulario-contacto">
@@ -261,15 +261,31 @@
           </div>
           <label for="mensaje" class="form-label">Mensaje</label>
           <div class="input-group mb-3">
-            <textarea class="form-control" id="mensaje"></textarea>
+            <textarea class="form-control" rows="8" id="mensaje"></textarea>
           </div>
-          <button type="button" class="btn btn-info">Enviar</button>
+          <button type="button" class="btn btn-info text-white">Enviar</button>
         </form>
       </div>
     </section>
 
     <!-- footer -->
-    <footer class="container align-items-center d-flex py-3 my-4">
+    <footer id="footer" class="text-center bg-info py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-sm-6">
+                    <h2 class="text-uppercase">Viajes Chile</h2>
+                </div>
+                <div class="col-12 col-sm-6">
+                    <a href="#"><i class="fa-brands fa-github-square fa-3x mx-2"></i></a>
+                    <a href="#"><i class="fa-brands fa-linkedin fa-3x mx-2"></i></a>
+                    <a href="#"><i class="fa-brands fa-twitter-square fa-3x mx-2"></i></a>
+                    <a href="#"><i class="fa-brands fa-facebook-square fa-3x mx-2"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- <footer class="container-fluid bg-info align-items-center d-flex p-4">
       <div
         class="col-xs-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 col-xxl-6 d-flex align-items-center"
       >
@@ -292,7 +308,7 @@
           <a href="#"><i class="fa-brands fa-facebook-square"></i></a>
         </li>
       </ul>
-    </footer>
+    </footer> -->
 
     <!-- jQuery CDN -->
     <script

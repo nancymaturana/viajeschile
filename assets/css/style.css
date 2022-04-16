@@ -1,8 +1,14 @@
-
-
 body{
-    font-family: 'Open Sans', sans-serif;
-    color: #FFFFFF;
+    font-family: 'Raleway', sans-serif;
+    color: #FFFFFF !important;
     background-color: #000000;
 }
 
+.nav-color{
+    background-color: transparent !important;
+}
+
+footer a{
+    color: #FFFFFF;
+    text-decoration: none;
+}
